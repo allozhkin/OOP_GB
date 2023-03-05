@@ -17,7 +17,7 @@ public class Drinks extends Product {
 
     @Override
     public String toString() {
-        return "Наименование товара: " + name + ", Цена товара: " + price + ", Количество товара: " +
+        return "Напитки - марка: " + name + ", Цена товара: " + price + ", Количество товара: " +
                 amount + ", Единица измерения: " + unit + ", объем: " + value;
     }
 }

@@ -8,8 +8,8 @@ public class Pacifier extends Children {
 
     @Override
     public String toString() {
-        return "Наименование товара: " + name + ", Цена товара: " + price + ", Количество товара: " +
-                amount + ", Единица измерения: " + unit + ", Минимальный возраст: " + minAge +
+        return "Соски - название товара: " + name + ", Цена товара: " + price + ", Количество товара: "
+                + amount + ", Единица измерения: " + unit + ", Минимальный возраст: " + minAge +
                 ", Гипоалергенность" + allergen;
     }
 

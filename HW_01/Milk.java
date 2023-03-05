@@ -31,9 +31,9 @@ public class Milk extends Drinks {
 
     @Override
     public String toString() {
-        return "Наименование товара: " + name + ", Цена товара: " + price + ", Количество товара: " +
-                amount + ", Единица измерения: " + unit + ", объем: " + value + ", Процент жирности: "
-                + fat + ", срок годности: " + dateOfEnd;
+        return "Молоко - название товара: " + name + ", Цена товара: " + price +
+                ", Количество товара: " + amount + ", Единица измерения: " + unit + ", объем: " + value
+                + ", Процент жирности: " + fat + ", срок годности: " + dateOfEnd;
     }
 
 }

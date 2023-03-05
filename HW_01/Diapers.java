@@ -33,7 +33,7 @@ public class Diapers extends Children {
 
     @Override
     public String toString() {
-        return "Наименование товара: " + name + ", Цена товара: " + price + ", Количество товара: " +
+        return "Подгузники - марка: " + name + ", Цена товара: " + price + ", Количество товара: " +
                 amount + ", Единица измерения: " + unit + ", Минимальный возраст: " + minAge +
                 ", Гипоалергенность" + allergen + ", размер: " + size + ", минимальный вес: " +
                 minWeight + ", максимальный вес: " + maxWeight + ", тип: " + type;

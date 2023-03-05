@@ -28,8 +28,9 @@ public class Children extends Product {
 
     @Override
     public String toString() {
-        return "Наименование товара: " + name + ", Цена товара: " + price + ", Количество товара: " +
-                amount + ", Единица измерения: " + unit + ", Минимальный возраст: " + minAge +
+        return "Детские товары - название товара: " + name + ", Цена товара: " + price
+                + ", Количество товара: " + amount + ", Единица измерения: " + unit +
+                ", Минимальный возраст: " + minAge +
                 ", Гипоалергенность" + allergen;
     }
 }

@@ -17,7 +17,8 @@ public class Food extends Product {
 
     @Override
     public String toString() {
-        return "Наименование товара: " + name + ", Цена товара: " + price + ", Количество товара: " +
-                amount + ", Единица измерения: " + unit + ", срок годности: " + dateOfEnd;
+        return "Продукты - название товара: " + name + ", Цена товара: " + price +
+                ", Количество товара: " + amount + ", Единица измерения: " + unit +
+                ", срок годности: " + dateOfEnd;
     }
 }
