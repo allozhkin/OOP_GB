@@ -33,7 +33,7 @@ public class Milk extends Drinks {
     public String toString() {
         return "Молоко - название товара: " + name + ", Цена товара: " + price +
                 ", Количество товара: " + amount + ", Единица измерения: " + unit + ", объем: " + value
-                + ", Процент жирности: " + fat + ", срок годности: " + dateOfEnd;
+                + "л" + ", Процент жирности: " + fat + ", срок годности: " + dateOfEnd;
     }
 
 }

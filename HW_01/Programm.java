@@ -18,7 +18,9 @@ public class Programm {
                 new Milk("Вкуснотеево", 170, 2, "шт",
                         2, 1.5, "2 месяца"),
                 new Pacifier("Авент", 750, 1, "шт", 0, "гипоалерген"),
-                new Product("чипсы", 320, 1, "шт")
+                new Product("чипсы", 320, 1, "шт"),
+                new Soda("черноголовка", 70, 3, "шт", 1),
+                new ToiletPaper("Зева", 800, 1, "уп", 8, 3)
         };
         products(product);
 
