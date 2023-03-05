@@ -1,7 +1,5 @@
 package HW_01;
 
-
-
 public class Product {
     /**
      * Наименование товара
@@ -12,7 +10,7 @@ public class Product {
      */
     protected Integer price;
     /**
-     *  Количество товара
+     * Количество товара
      */
     protected Integer amount;
     /**
@@ -20,23 +18,32 @@ public class Product {
      */
     protected String unit;
 
-    public Product(String name,Integer price, Integer amount,String unit){
+    public Product(String name, Integer price, Integer amount, String unit) {
         this.amount = amount;
         this.name = name;
         this.price = price;
         this.unit = unit;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
-    public Integer getPrice(){
+
+    public Integer getPrice() {
         return price;
     }
-    public Integer getAmount(){
+
+    public Integer getAmount() {
         return amount;
     }
-    public String getUnit(){
+
+    public String getUnit() {
         return unit;
+    }
+
+    @Override
+    public String toString() {
+        return "Наименование товара: " + name + ", Цена товара: " + price + ", Количество товара: " +
+                amount + ", Единица измерения: " + unit;
     }
 }
